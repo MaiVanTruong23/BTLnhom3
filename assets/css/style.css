@@ -512,7 +512,7 @@ h2 {
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 40px;
   line-height: 1.4;
 }
 
@@ -1100,7 +1100,8 @@ textarea {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../img/bg.png');
+  background-image: url('../img/bgdeal2.png');
+  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1343,7 +1344,7 @@ table img {
 
 .navbar-brand {
   padding: 10px 0;
-  width: 170px;
+  width: 100px;
 }
 
 .andro_header-controls {
@@ -2071,6 +2072,8 @@ table img {
 /*======================
 3. Footer
 ========================*/
+
+/*
 .andro_footer {
   background-color: #F0F2F3;
   padding: 50px 0 0;
@@ -2093,6 +2096,57 @@ table img {
   justify-content: space-between;
   margin-bottom: 50px;
 }
+  */
+
+  .andro_footer {  
+    background-color: #F0F2F3;  
+    padding: 10px 0 0;  
+  }  
+  
+  .andro_footer p {  
+    margin-bottom: 20px;  
+    color: #515151;  
+  }  
+  
+  .andro_footer-top {  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-between;  
+    margin-bottom: 20px;  
+  }  
+  
+  .andro_footer-logo img {  
+    max-width: 200px; /* Điều chỉnh kích thước logo */  
+  }  
+  
+  .andro_footer-buttons a img {  
+    max-width: 150px; /* Điều chỉnh kích thước nút tải app */  
+    margin: 0 15px;  /* Khoảng cách giữa các nút */  
+  }  
+  
+  .email-signup {  
+    display: flex;  
+    align-items: center;  
+    margin-left: 20px; /* Khoảng cách với nút tải app */  
+  }  
+  
+  .email-signup input {  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    flex: 1; /* Cho phép ô nhập email chiếm toàn bộ không gian còn lại */  
+  }  
+  
+  .email-signup button {  
+    padding: 10px 20px;  
+    background-color: #634832; /* Màu nền cho nút */  
+    color: white;  
+    border: none;  
+    cursor: pointer;  
+  }  
+  
+  .email-signup button:hover {  
+    background-color: #764603; /* Màu khi hover */  
+  }
 
 .andro_footer-middle a,
 .andro_footer-middle i {
@@ -5029,7 +5083,7 @@ td.remove {
   .navbar-brand {
     width: 150px;
   }
-
+  
   .andro_header-controls .aside-toggler {
     height: 58px;
     width: 58px;
@@ -5489,6 +5543,7 @@ td.remove {
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+/*
 .nhagiao {
   display: flex;
   justify-content: center;
@@ -5497,24 +5552,26 @@ td.remove {
   flex-wrap: wrap;
   margin: 0 auto;
 }
+  */
 
-.snip1523 {
-  font-family: 'Lato', sans-serif;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  width: 4em;
-  min-width: 230px;
-  max-width: 450px;
-  width: 100%;
-  color: #ffffff;
-  text-align: left;
-  font-size: 16px;
-  background-color: #1A1A1A;
+  .snip1523 {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    max-width: 700px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    background-color: #1A1A1A;
 }
+
+
 
 .snip1523 * {
   -webkit-box-sizing: border-box;
@@ -5524,8 +5581,10 @@ td.remove {
 }
 
 .snip1523 img {
-  vertical-align: top;
+  vertical-align: center;
   max-width: 100%;
+  height: auto;
+  margin: auto;
   backface-visibility: hidden;
 }
 
@@ -5536,7 +5595,7 @@ td.remove {
   left: 0;
   right: 0;
   z-index: 1;
-  padding: 30px;
+  padding: 30px 30px;
   background-color: #202123;
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
@@ -5597,78 +5656,70 @@ td.remove {
   transform: translateX(0%);
 }
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800);  
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);  
 
-figure.snip0025 {
-  font-family: 'Raleway', Arial, sans-serif;
-  color: #fff;
-  position: relative;
-  overflow: hidden;
-  margin: 5%;
+figure.snip0025 {  
+  font-family: 'Raleway', sans-serif; /* Sử dụng font Raleway */  
+  color: #fff;  
+  position: relative;  
+  overflow: hidden;  
+  margin: 0 auto;  
+  height: 50%;  
+  width: 100%;  
+  background: #000000;  
+  text-align: center; /* Căn giữa toàn bộ nội dung */  
+}  
 
-  height: 60%;
-  width: 90%;
-  background: #000000;
-  text-align: left;
+figure.snip0025 * {  
+  box-sizing: border-box;  
+}  
+
+figure.snip0025 img {  
+  opacity: 1;  
+  width: 100%;  
+  transition: all 0.35s;  
+}  
+
+figure.snip0025 > div {  
+  position: absolute;  
+  top: 0;  
+  left: 0;  
+  width: 100%;  
+  height: 100%;  
+}  
+
+figure.snip0025 > div::before {  
+  position: absolute;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  left: 0;  
+  content: '';  
+  opacity: 0;  
+  transition: opacity 0.4s;  
+  transition-delay: 0.3s;  
+  background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.95));  
+}  
+
+figure.snip0025 h2 {  
+  font-weight: 700; /* Đặt độ đậm cho chữ */  
+  text-transform: uppercase;  
+  top: 30%;  
+  opacity: 0;  
+  padding: 25px;  
+  margin: 0;  
+  position: absolute;  
+  color: #ffffff; /* Đặt màu chữ thành trắng */  
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Tăng độ mờ cho bóng chữ */  
+  text-align: center;  
+  transition: all 0.4s;  
+}  
+
+figure.snip0025 h2 span {  
+  font-weight: 400;  
 }
 
-figure.snip0025 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-figure.snip0025 img {
-  opacity: 1;
-  width: 100%;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-}
-
-figure.snip0025>div {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-figure.snip0025>div::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: '';
-  opacity: 0;
-  -webkit-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
-  background-image: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.95));
-}
-
-figure.snip0025 h2 {
-  word-spacing: -0.1em;
-  font-weight: 5px;
-  text-transform: uppercase;
-  top: 30%;
-  opacity: 0;
-  padding: 25px;
-  margin: 0;
-  position: absolute;
-  color: transparent;
-  text-shadow: 0 0 10px #ffffff;
-  text-align: center;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  -webkit-transition-delay: 0s;
-  transition-delay: 0s;
-}
-
-figure.snip0025 h2 span {
-  font-weight: 400;
-}
 
 figure.snip0025 i {
   display: inline-block;
