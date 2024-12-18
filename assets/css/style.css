@@ -729,7 +729,9 @@ blockquote p {
   padding-bottom: 25px;
   border-bottom: 3px solid #F0F2F3;
 }
-
+.section-title h4 {
+ color: #5b3a20;
+}
 .section-title::after {
   content: '';
   position: absolute;
@@ -2069,6 +2071,24 @@ table img {
   transform: rotate(180deg);
 }
 
+
+/* Phần nội dung bên phải */
+.menu-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.menu-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.menu-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}  
 /*======================
 3. Footer
 ========================*/
