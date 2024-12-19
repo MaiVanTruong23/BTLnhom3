@@ -1,0 +1,55 @@
+/* Viền bao quanh toàn bộ bảng */
+.checkout-container {
+    border: 2px solid #bca68c; /* Viền ngoài màu nâu nhạt */
+    border-radius: 12px; /* Bo tròn khung ngoài */
+    padding: 20px; /* Khoảng cách giữa nội dung và viền */
+    background-color: #fefcf8; /* Nền toàn khung */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+    margin-bottom: 30px; /* Khoảng cách dưới */
+    margin-top: 10px; /* Khoảng cách trên */
+}
+
+/* Nội dung bên trong bảng */
+.bill-info {
+    background-color: #fdf6e3; /* Nền trong bảng */
+    border: 1px solid #d5c4a1; /* Viền trong bảng */
+    border-radius: 8px; /* Bo góc */
+    padding: 20px;
+}
+
+.bill-info h4 {
+    color: #5d4037; /* Màu chữ cho tiêu đề */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bill-info .form-group label {
+    font-weight: 500;
+    color: #5d4037; /* Màu chữ nhãn */
+}
+
+.bill-info .form-control {
+    border: 1px solid #d5c4a1; /* Viền input */
+    border-radius: 5px; /* Bo góc */
+    padding: 10px;
+    background-color: #fff; /* Nền input */
+    font-size: 14px;
+}
+
+.bill-info .form-control:focus {
+    border-color: #bca68c; /* Màu viền khi focus */
+    box-shadow: 0px 0px 5px rgba(188, 166, 140, 0.5); /* Hiệu ứng focus */
+}
+
+.bill-info textarea.form-control {
+    resize: none; /* Không cho phép kéo giãn textarea */
+}
+.detailscheckout-container {
+    border: 2px solid #bca68c; /* Viền ngoài màu nâu nhạt */
+    border-radius: 12px; /* Bo tròn viền */
+    padding: 20px; /* Khoảng cách bên trong */
+    background-color: #fefcf8; /* Màu nền */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    margin-bottom: 30px; /* Khoảng cách dưới */
+    margin-top: 10px; /* Khoảng cách trên */
+}
