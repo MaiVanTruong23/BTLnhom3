@@ -723,6 +723,7 @@ blockquote p {
   margin: 0;
 }
 
+
 .section-title {
   position: relative;
   margin-bottom: 30px;
@@ -1102,7 +1103,7 @@ textarea {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../img/backgroundkm2.jpg');
+  background-image: url('../img/banner/deal3.png');
   
   background-repeat: no-repeat;
   background-position: center;
@@ -4120,9 +4121,14 @@ td.remove {
 .andro_cta-notice-inner {
   max-width: 600px;
 }
-
+.andro_cta-notice-inner h3{
+  color: rgb(4, 70, 4);
+}
 .andro_cta-notice-inner p {
   margin-bottom: 25px;
+  color: rgb(31, 21, 21);
+  font-size: 23px;
+
 }
 
 .andro_cta {
