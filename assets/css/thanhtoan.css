@@ -52,4 +52,18 @@
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
     margin-bottom: 30px; /* Khoảng cách dưới */
     margin-top: 10px; /* Khoảng cách trên */
+    
+}
+.andro_responsive-table th, 
+.andro_responsive-table td {
+    border: 1px solid #d5c4a1; /* Viền trong bảng */
+    padding: 10px; /* Khoảng cách bên trong ô */
+    text-align: left; /* Căn trái văn bản */
+ 
+}
+.error-message {
+    color: red;              /* Màu chữ đỏ để thông báo lỗi rõ ràng */
+    font-size: 14px;         /* Kích thước chữ vừa phải */
+    margin-top: 5px;         /* Khoảng cách từ trường input đến thông báo lỗi */
+    display: block;          /* Đảm bảo thông báo lỗi hiển thị như một khối */
 }

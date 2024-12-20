@@ -534,82 +534,124 @@
     </div>
   </div>
   <!-- Subheader End -->
-
-  <!-- Bắt đầu thanh toán  -->
-  <div class="container">
-
-
-    <form method="post">
-      <div class="row">
-        <div class="col-xl-7">
-          <div class="checkout-container">
+<!-- Bắt đầu thanh toán  -->
+<div class="container">
+  <form method="post" id="checkout-form">
+    <div class="row">
+      <div class="col-xl-7">
+        <div class="checkout-container">
           <div class="checkout-col-content bill-info">
-          <!-- Buyer Info Start -->
-          <h4>Thông tin hóa đơn </h4>
-          <div class="row">
-            <div class="form-group col-xl-6">
-              <label>First Name <span class="text-danger">*</span></label>
-              <input type="text" placeholder="First Name" name="fname" class="form-control" value="" required="">
-            </div>
-            <div class="form-group col-xl-6">
-              <label>Last Name <span class="text-danger">*</span></label>
-              <input type="text" placeholder="Last Name" name="lname" class="form-control" value="" required="">
-            </div>
-            <div class="form-group col-xl-12">
-              <label>Địa chỉ nhận hàng <span class="text-danger">*</span></label>
-              <input type="text" placeholder="Street Address One" name="addr-1" class="form-control" value="" required="">
-            </div>
-            <div class="form-group col-xl-12">
-              <label>Phương thức thanh toán</label>
-              <select id="payment-method" class="form-control">
-                <option value="card">Thanh toán qua thẻ</option>
-                <option value="cod">Thanh toán khi nhận hàng (COD)</option>
-            </select>
-            </div>
-            <div class="form-group col-xl-6">
-              <label>Phone Number <span class="text-danger">*</span></label>
-              <input type="text" placeholder="Phone Number" name="phone" class="form-control" value="" required="">
-            </div>
-            <div class="form-group col-xl-6">
-              <label>Email Address <span class="text-danger">*</span></label>
-              <input type="email" placeholder="Email Address" name="email" class="form-control" value="" required="">
-            </div>
-            <div class="form-group col-xl-12 mb-0">
-              <label>Order Notes</label>
-              <textarea name="name" rows="5" class="form-control" placeholder="Order Notes (Optional)"></textarea>
+            <!-- Buyer Info Start -->
+            <h4>Thông tin hóa đơn </h4>
+            <div class="row">
+              <div class="form-group col-xl-6">
+                <label>First Name <span class="text-danger">*</span></label>
+                <input type="text" placeholder="First Name" name="fname" id="fname" class="form-control" required>
+                <div id="fname-error" class="error-message"></div>
+              </div>
+              <div class="form-group col-xl-6">
+                <label>Last Name <span class="text-danger">*</span></label>
+                <input type="text" placeholder="Last Name" name="lname" id="lname" class="form-control" required>
+                <div id="lname-error" class="error-message"></div>
+              </div>
+              <div class="form-group col-xl-12">
+                <label>Địa chỉ nhận hàng <span class="text-danger">*</span></label>
+                <input type="text" placeholder="Street Address One" name="addr-1" id="addr" class="form-control" required>
+                <div id="addr-error" class="error-message"></div>
+              </div>
+              <div class="form-group col-xl-12">
+                <label>Phương thức thanh toán</label>
+                <select id="payment-method" class="form-control">
+                  <option value="card">Thanh toán qua thẻ</option>
+                  <option value="cod">Thanh toán khi nhận hàng (COD)</option>
+                </select>
+              </div>
+              <div class="form-group col-xl-6">
+                <label>Phone Number <span class="text-danger">*</span></label>
+                <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-control" required>
+                <div id="phone-error" class="error-message"></div>
+              </div>
+              <div class="form-group col-xl-6">
+                <label>Email Address <span class="text-danger">*</span></label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-control" required>
+                <div id="email-error" class="error-message"></div>
+              </div>
+              <div class="form-group col-xl-12 mb-0">
+                <label>Order Notes</label>
+                <textarea name="name" rows="5" class="form-control" placeholder="Order Notes (Optional)" id="order-notes"></textarea>
+              </div>
             </div>
           </div>
         </div>
       </div>
-          <!-- Buyer Info End -->
+      <!-- Buyer Info End -->
 
-
-        </div>
-       
+        
         <div class="col-xl-5 checkout-billing">
           <div class="detailscheckout-container">
-             <!-- Order Details Start -->
-          <table class="andro_responsive-table">
-            <thead>
-              <tr>
-                <th>Product</th>
-                <th>Qunantity</th>
-                <th>Total</th>
-              </tr>
-            </thead>
-            <tbody>
-             
-            </tbody>
-          </table>
-          <p class="small">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a class="btn-link" href="#">privacy policy.</a> </p>
-          <button type="submit" class="andro_btn-custom primary btn-block">Đặt hàng</button>
-          <!-- Order Details End -->
+            <!-- Order Details Start -->
+            <table class="andro_responsive-table">
+              <thead>
+                <tr>
+                  <th>Sản phẩm</th>
+                  <th>Số lượng</th>
+                  <th>Giá</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-title="Product">
+                    <div class="andro_cart-product-wrapper">
+                      <div class="andro_cart-product-body">
+                        <h6> <a href="#">Italian Coffee</a> </h6>
+                        <p>1 Piece</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td data-title="Quantity">x1</td>
+                  <td data-title="Total"> <strong>23.99$</strong> </td>
+                </tr>
+                <tr>
+                  <td data-title="Product">
+                    <div class="andro_cart-product-wrapper">
+                      <div class="andro_cart-product-body">
+                        <h6> <a href="#">Hybrid</a> </h6>
+                        <p>Packets </p>
+                      </div>
+                    </div>
+                  </td>
+                  <td data-title="Quantity">x1</td>
+                  <td data-title="Total"> <strong>9.99$</strong> </td>
+                </tr>
+                <tr>
+                  <td data-title="Product">
+                    <div class="andro_cart-product-wrapper">
+                      <div class="andro_cart-product-body">
+                        <h6> <a href="#">Mocha</a> </h6>
+                        <p>3 Packets </p>
+                      </div>
+                    </div>
+                  </td>
+                  <td data-title="Quantity">x2</td>
+                  <td data-title="Total"> <strong>13.99$</strong> </td>
+                </tr>
+                <tr class="total">
+                  <td>
+                    <h6 class="mb-0">Grand Total</h6>
+                  </td>
+                  <td></td>
+                  <td> <strong>56.99$</strong> </td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="small">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a class="btn-link" href="#">privacy policy.</a> </p>
+            <button type="submit" class="andro_btn-custom primary btn-block">Đặt hàng</button>
+            <!-- Order Details End -->
+          </div>
         </div>
-      </div>
       </div>         
     </form>
   </div>
-</div>
 <!-- Checkout End -->
 
 
@@ -758,6 +800,7 @@
   <script src="assets/js/plugins/slick.min.js"></script>
   <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
   <script src="assets/js/plugins/jquery.zoom.min.js"></script>
+  <script src="assets/js/thanhtoan.js"></script>
 
   <!-- Coffeez Scripts -->
   <script src="assets/js/main.js"></script>
