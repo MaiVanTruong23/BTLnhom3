@@ -485,6 +485,7 @@
         }, 600);
         return false;
     })
+    
 
     //On scroll events
     $(window).on('scroll', function () {
