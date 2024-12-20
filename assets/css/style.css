@@ -979,15 +979,6 @@ textarea {
   color: #b682e1;
 }
 
-.twitter {
-  background-color: rgb(44, 170, 225) !important;
-  color: #fff;
-}
-
-.twitter:hover {
-  background-color: #2caae1;
-  color: #fff;
-}
 
 .facebook {
   background-color: rgb(59, 87, 157) !important;
@@ -1634,6 +1625,53 @@ table img {
   border: 1px solid #F0F2F3;
   box-shadow: 0 3px 24px rgba(0, 0, 0, .04);
 }
+/*------------- Sidebar Danh mục sản phẩm trang danh mục----------------------------------------*/
+/* Ẩn danh mục con */
+.sub-product-list {
+  display: none;
+  margin-left: 20px;
+  font-family: 'Montserrat', serif;
+}
+
+/* Hiển thị danh mục con khi được bật */
+.sub-product-list.active {
+  display: block;
+}
+
+/* Căn chỉnh tiêu đề và nút toggle trên cùng một hàng */
+.product-header {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: space-between; /* Đặt khoảng cách giữa tiêu đề và nút toggle */
+}
+.product-link {
+  text-decoration: none;
+  color: inherit; /* Giữ nguyên màu chữ theo thiết kế */
+}
+
+/* đổi màu khi hover */
+.product-link:hover {
+  color: #000; 
+}
+/* Thiết kế toggle-button */
+.toggle-button {
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+  background: none; /* Loại bỏ màu nền */
+  border: none; /* Loại bỏ viền đen */
+  padding: 0;
+  margin-left: 10px;
+  color: #632d0d; /* Đổi màu mũi tên */
+}
+
+/* Khi mở rộng */
+.toggle-button.open {
+  transform: rotate(90deg);
+}
+
+/*-------------------------------------------------------------------------------*/
 
 .andro_search-adv-input {
   position: relative;
@@ -2874,10 +2912,13 @@ table img {
 
 .sidebar-widget ul.sidebar-widget-list ul {
   padding-left: 20px;
+  font-size: 26px;
 }
 
 .sidebar-widget ul.sidebar-widget-list li {
   margin: 0;
+  font-size: 15px;
+
 }
 
 .sidebar-widget ul.sidebar-widget-list li ul li:first-child {
