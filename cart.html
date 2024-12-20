@@ -495,63 +495,64 @@
 
 
   <!-- Giỏ hàng -->
-  <table class="andro_responsive-table">
-    <thead>
-      <tr>
-        <th class="remove-item"></th>
-        <th>Product</th>
-        <th>Price</th>
-        <th>Quantity</th>
-        <th>Total</th>
-      </tr>
-    </thead>
-    <tbody id="cart-body">
-      <!-- Các sản phẩm sẽ được thêm vào ở đây bằng JavaScript -->
-    </tbody>
-  </table>
-  <!-- Coupon Code Start -->
-  <div class="row">
-    <div class="col-lg-5">
-      <div class="form-group mb-0">
-        <div class="input-group mb-0">
-          <input type="text" class="form-control" placeholder="Enter Coupon Code" aria-label="Coupon Code">
-          <div class="input-group-append">
-            <button class="andro_btn-custom shadow-none" type="button">Apply</button>
+  <div class="container">
+    <div class="row">
+      <!-- Cột trái: Sản phẩm và mã giảm giá -->
+      <div class="col-lg-8 cart-left">
+        <!-- Bảng sản phẩm -->
+        <table class="andro_responsive-table">
+          <thead>
+            <tr>
+              <th class="remove-item"></th>
+              <th>Sản phẩm</th>
+              <th >Giá</th>
+              <th class="col-short">Số lượng</th>
+              <th class="col-wide">Tổng tiền</th>
+            </tr>
+          </thead>
+          <tbody id="cart-body">
+            <!-- Các sản phẩm sẽ được thêm vào ở đây bằng JavaScript -->
+          </tbody>
+        </table>
+  
+        <!-- Form mã giảm giá -->
+        <div class="form-group mt-3">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Nhập mã giảm giá" aria-label="Coupon Code">
+            <div class="input-group-append">
+              <button class="andro_btn-custom shadow-none" type="button">Áp dụng</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- Cart form Start -->
-  <div class="section pt-0">
-    <div class="container">
-      <div class="row andro_cart-form">
-        <div class="col-lg-6">
+  
+      <!-- Cột phải: Tổng giỏ hàng và thanh toán -->
+      <div class="col-lg-4 cart-right">
+        <div class="cart-summary">
           <div class="section-title">
-            <h4 class="title">Cart Total</h4>
+            <h4 class="title">Tổng giỏ hàng</h4>
           </div>
           <table>
             <tbody>
               <tr>
-                <th>Subtotal</th>
+                <th>Tổng phụ</th>
                 <td id="cart-subtotal">0 VND</td>
               </tr>
               <tr>
-                <th>Shipping</th>
+                <th>Phí vận chuyển</th>
                 <td>100,000 VND</td>
               </tr>
-
             </tbody>
           </table>
+          <div id="cart-total" class="mt-3">
+            <strong>Tổng:</strong> <span id="total-price">0 VND</span>
+          </div>
+          <a href="checkout.html" class="andro_btn-custom primary btn-block mt-3">Tiến hành thanh toán</a>
         </div>
-        <div id="cart-total">
-          <strong>Total:</strong> <span id="total-price">0 VND</span>
-        </div>
-        <a href="checkout.html" class="andro_btn-custom primary btn-block">Proceed to Checkout</a>
       </div>
     </div>
   </div>
-  </div>
+  
 
   <!-- Cart form End -->
   <div class="section pt-0">
@@ -559,7 +560,7 @@
       <div class="row andro_cart-form">
         <div class="col-lg-6 andro_upsells">
           <div class="section-title flex-title">
-            <h4 class="title">Upsells</h4>
+            <h4 class="title">Đề xuất</h4>
             <div class="andro_arrows">
               <i class="fa fa-arrow-left slick-arrow slider-prev"></i>
               <i class="fa fa-arrow-right slick-arrow slider-next"></i>

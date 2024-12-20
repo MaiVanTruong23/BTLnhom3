@@ -979,15 +979,6 @@ textarea {
   color: #b682e1;
 }
 
-.twitter {
-  background-color: rgb(44, 170, 225) !important;
-  color: #fff;
-}
-
-.twitter:hover {
-  background-color: #2caae1;
-  color: #fff;
-}
 
 .facebook {
   background-color: rgb(59, 87, 157) !important;
@@ -1554,13 +1545,16 @@ table img {
 
 .andro_search-adv-cats {
   position: relative;
-  background-color: #F0F2F3;
+  background-color: #634832;
   border-radius: 0;
   padding: 0 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+.andro_search-adv-cats:hover {
+  background-color: #79573b;
 }
 
 .andro_search-adv-cats label {
@@ -1603,7 +1597,7 @@ table img {
 }
 
 .andro_search-adv-cats>span {
-  color: #18181D;
+  color: #fff;
   font-size: 13px;
   font-weight: 600;
 }
@@ -1631,6 +1625,53 @@ table img {
   border: 1px solid #F0F2F3;
   box-shadow: 0 3px 24px rgba(0, 0, 0, .04);
 }
+/*------------- Sidebar Danh mục sản phẩm trang danh mục----------------------------------------*/
+/* Ẩn danh mục con */
+.sub-product-list {
+  display: none;
+  margin-left: 20px;
+  font-family: 'Montserrat', serif;
+}
+
+/* Hiển thị danh mục con khi được bật */
+.sub-product-list.active {
+  display: block;
+}
+
+/* Căn chỉnh tiêu đề và nút toggle trên cùng một hàng */
+.product-header {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: space-between; /* Đặt khoảng cách giữa tiêu đề và nút toggle */
+}
+.product-link {
+  text-decoration: none;
+  color: inherit; /* Giữ nguyên màu chữ theo thiết kế */
+}
+
+/* đổi màu khi hover */
+.product-link:hover {
+  color: #000; 
+}
+/* Thiết kế toggle-button */
+.toggle-button {
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+  transition: transform 0.2s ease;
+  background: none; /* Loại bỏ màu nền */
+  border: none; /* Loại bỏ viền đen */
+  padding: 0;
+  margin-left: 10px;
+  color: #632d0d; /* Đổi màu mũi tên */
+}
+
+/* Khi mở rộng */
+.toggle-button.open {
+  transform: rotate(90deg);
+}
+
+/*-------------------------------------------------------------------------------*/
 
 .andro_search-adv-input {
   position: relative;
@@ -2471,7 +2512,7 @@ table img {
   margin: 0;
   color: #fff;
 }
-
+/*
 .andro_subheader .breadcrumb {
   padding: 0;
   margin: 0;
@@ -2512,7 +2553,7 @@ table img {
   -o-transition: .3s;
   transition: .3s;
 }
-
+*/
 /*======================
 6. Components
 ========================*/
@@ -2871,10 +2912,13 @@ table img {
 
 .sidebar-widget ul.sidebar-widget-list ul {
   padding-left: 20px;
+  font-size: 26px;
 }
 
 .sidebar-widget ul.sidebar-widget-list li {
   margin: 0;
+  font-size: 15px;
+
 }
 
 .sidebar-widget ul.sidebar-widget-list li ul li:first-child {
@@ -3390,12 +3434,12 @@ table img {
 .andro_product-single-content .andro_rating-wrapper {
   margin-bottom: 0;
 }
-
+/*
 .andro_product-single-content .andro_product-excerpt,
 .andro_product-single-content .andro_product-variation-wrapper {
   margin-bottom: 25px;
 }
-
+*/
 .andro_product-single-content .andro_product-price {
   margin-bottom: 20px;
 }
@@ -3505,7 +3549,7 @@ table img {
 .andro_product-additional-info .comment-form {
   margin-bottom: 50px;
 }
-
+/*
 .andro_product-single-controls {
   margin-bottom: 20px;
   position: relative;
@@ -3525,6 +3569,7 @@ table img {
   margin: 0 10px 0 0;
 }
 
+
 .andro_product-single-controls .andro_add-to-favorite:hover {
   background-color: #F0F2F3;
 }
@@ -3532,6 +3577,33 @@ table img {
 .andro_product-single-controls .andro_add-to-favorite i {
   font-size: 21px;
   color: #838383;
+}
+*/
+.andro_product-single-controls-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Khoảng cách giữa các nút */
+}
+
+.andro_add-to-favorite,
+.andro_share-facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; /* Kích thước nút */
+  height: 40px;
+  border: 1px solid #ccc; /* Viền */
+  border-radius: 50%; /* Hình tròn */
+  text-align: center;
+  color: #333; /* Màu chữ */
+  background-color: #fff; /* Nền trắng */
+  transition: all 0.3s ease; /* Hiệu ứng hover */
+}
+
+.andro_add-to-favorite:hover,
+.andro_share-facebook:hover {
+  background-color: #f0f0f0;
+  color: #000;
 }
 
 .andro_product-meta {
@@ -5839,4 +5911,101 @@ figure.snip0025.hover .curl {
   margin: 2rem;
   flex-wrap: wrap;
 
+}
+/* CSS cho giỏ hàng */
+/* Thiết lập bố cục Flexbox cho giỏ hàng */
+.cart-layout {
+  display: flex;
+  justify-content: space-between; /* Tách hai cột cách đều */
+  gap: 20px; /* Khoảng cách giữa hai cột */
+}
+
+/* Cột bên trái: Chiếm 2/3 không gian */
+.cart-left {
+  flex: 2; /* Chiếm nhiều không gian hơn */
+}
+
+/* Cột bên phải: Chiếm 1/3 không gian */
+.cart-right {
+  flex: 1; /* Chiếm ít không gian hơn */
+}
+
+/* Bảng sản phẩm */
+.andro_responsive-table {
+  border-radius: 6px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top:10px;
+  border: 2px solid #704d25;
+ 
+}
+
+.andro_responsive-table th,
+.andro_responsive-table td {
+  border: 2px solid #704d25;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+/* Định dạng tổng giỏ hàng */
+.cart-summary {
+  border: 2px solid #704d25;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cart-summary .section-title {
+  margin-bottom: 15px;
+}
+
+.cart-summary table {
+  width: 100%;
+}
+
+.cart-summary table th,
+.cart-summary table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#cart-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* Nút thanh toán */
+.andro_btn-custom {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #704d25; /* Màu nâu trà */
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.andro_btn-custom:hover {
+  background-color: #5c3f1f; /* Màu đậm hơn */
+}
+.cart-summary{
+  margin-top: 15px;
+}
+.input-group{
+  border: 2px solid #704d25;
+  border-radius: 6px;
+}
+.form-control{
+  border-radius: 6px;
+}
+.col-short {
+  width: 80px; /* Đặt độ rộng ngắn cho cột số lượng */
+}
+
+.col-wide {
+  width: 150px; /* Đặt độ rộng lớn hơn cho cột tổng tiền */
 }
