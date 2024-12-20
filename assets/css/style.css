@@ -631,7 +631,15 @@ blockquote p {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
-
+.author-info {
+  text-align: right ;
+  font-style: italic;
+  margin-top: 20px;
+  color: #555; /* Màu chữ */
+}
+.entry-content p{
+  text-align: justify;
+}
 .entry-content p,
 .entry-content img {
   margin-bottom: 20px;
@@ -2469,7 +2477,8 @@ table img {
   font-size: 30px;
   line-height: 1.5;
   margin: 0;
-  color: #fff;
+  color : #38220F
+  /*color: #fff;*/
 }
 
 .andro_subheader .breadcrumb {
