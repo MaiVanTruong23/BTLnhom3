@@ -37,74 +37,6 @@
   </div>
   <!-- Prealoader End -->
 
-   <!-- Quick View Modal Start -->
-   <div class="modal fade andro_quick-view-modal" id="quickViewModal" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-
-                <div class="close-btn close-dark close" data-dismiss="modal">
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <img src="assets/img/products/quick_view5000804.jpg" alt="product">
-                        </div>
-                        <div class="col-md-7">
-
-                            <div class="andro_product-single-content">
-
-                                <div class="andro_rating-wrapper">
-                                    <div class="andro_rating">
-                                        <i class="fa fa-star active"></i>
-                                        <i class="fa fa-star active"></i>
-                                        <i class="fa fa-star active"></i>
-                                        <i class="fa fa-star active"></i>
-                                        <i class="fa fa-star active"></i>
-                                    </div>
-                                    <span>5 Stars</span>
-                                </div>
-
-                                <h3>Trung Nguyên Legend Roman - 200g</h3>
-
-                                <div class="andro_product-price">
-                                    <span>550.800 ₫</span>
-                                </div>
-
-                                <p class="andro_product-excerpt">
-                                    <strong>Mã sản phẩm: 5000804 </strong> <br>
-                                    Tuyệt phẩm cà phê Roman rất độc đáo và đầy tinh tế, thể chất đậm, 
-                                    tròn vị cùng mùi khói nhẹ, đặc trưng xen lẫn chút hương vị trái cây tươi 
-                                    tạo nên tách cà phê tuyệt hảo, đậm phong vị Espresso nguyên bản.
-                                </p>
-
-                                <form class="andro_product-atc-form">
-                                    
-                                    <div class="qty-outter">
-                                        <a href="product-single.html" class="andro_btn-custom">Chi tiết</a>
-                                        <div class="qty">
-                                            <span class="qty-subtract"><i class="fa fa-minus"></i></span>
-                                            <input type="text" name="qty" value="1">
-                                            <span class="qty-add"><i class="fa fa-plus"></i></span>
-                                        </div>
-                                    </div>
-
-                                </form>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Quick View Modal End -->
 
 <!-- Aside (Right Panel) -->
 <aside class="andro_aside andro_aside-right">
@@ -574,6 +506,55 @@
   </div>
   <!-- Subheader End -->
 
+  <!-- Quickview Modal Start -->
+  <div class="modal fade andro_quick-view-modal" id="quickViewModal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <div class="close-btn close-dark close" data-dismiss="modal">
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img id="product-image" src="" alt="product">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="andro_product-single-content">
+                                <div class="andro_rating-wrapper">
+                                    <div id="product-rating" class="andro_rating"></div>
+                                    <span id="product-stars"></span>
+                                </div>
+                                <h3 id="product-title"></h3>
+                                <div class="andro_product-price">
+                                    <span id="product-price"></span>
+                                </div>
+                                <p id="product-description"></p>
+                                <form class="andro_product-atc-form">
+                                    <div class="qty-outter">
+                                        <a href="#" id="buy-now-link" class="andro_btn-custom">Mua ngay</a>
+                                        <div class="qty">
+                                            <span class="qty-subtract"><i class="fa fa-minus"></i></span>
+                                            <input type="text" name="qty" value="1">
+                                            <span class="qty-add"><i class="fa fa-plus"></i></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Quickview Modal End -->
+
+
   <!-- Products Start -->
   <div class="section">
     <div class="andro_section-fw">
@@ -604,32 +585,34 @@
                 <div class="andro_product-badge andro_badge-featured">
                   <i class="fa fa-star"></i>
                   <span>Nổi bật</span>
-                </div>
-                <div class="andro_product-thumb">
-                  <a href="product-single.html"><img src="assets/img/products/legend2.jpg" alt="product"></a>
-                </div>
-                <div class="andro_product-body">
-                  <h6 class="andro_product-title"> <a href="product-single.html">Trung Nguyên Legend Americano
-                    hộp 15 gói x 2g</a> </h6>
-                  <div class="andro_rating-wrapper">
-                    <div class="andro_rating">
-                      <i class="fa fa-star active"></i>
-                      <i class="fa fa-star active"></i>
-                      <i class="fa fa-star active"></i>
-                      <i class="fa fa-star active"></i>
-                      <i class="fa fa-star active" ></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="andro_product-footer">
+              </div>
+              <div class="andro_product-thumb">
+                  <a href="product_cafe1.html"><img src="assets/img/products/legend2.jpg" alt="product"></a>
+              </div>
+              <div class="andro_product-body">
+                  <h6 class="andro_product-title"> <a href="product_cafe1.html">Trung Nguyên Legend Americano
+                          hộp 15 gói x 2g</a> </h6>
                   <div class="andro_product-price">
-                    <span>52.000 đ</span>
+                      <span>52.000 đ</span>
                   </div>
+                  <div class="andro_rating-wrapper">
+                      <div class="andro_rating">
+                          <i class="fa fa-star active"></i>
+                          <i class="fa fa-star active"></i>
+                          <i class="fa fa-star active"></i>
+                          <i class="fa fa-star active"></i>
+                          <i class="fa fa-star active"></i>
+                      </div>
+                  </div>
+              </div>
+              <div class="andro_product-footer">
+
                   <div class="andro_product-buttons">
-                    <a href="#" class="andro_btn-custom primary">Thêm vào giỏ hàng</a>
-                    <a href="#" data-toggle="modal" data-target="#quickViewModal" class="andro_btn-custom light">Xem nhanh</a>
+                      <!--javascript:void(0); để ngăn không cho chuyển trang-->
+                      <a href="javascript:void(0);" class="andro_btn-custom primary" onclick="themVaoGioHang()">Thêm vào giỏ hàng</a> 
+                      <a class="andro_btn-custom light xem-nhanh-btn" data-id="4">Xem nhanh</a>
                   </div>
-                </div>
+              </div>
               </div>
             </div>
             <!-- Product End -->
