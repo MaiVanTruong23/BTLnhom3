@@ -1800,7 +1800,8 @@ table img {
   color: #634832;
 }
 
-.navbar-nav .mega-menu-item .andro_btn-custom {
+.navbar-nav .mega-menu-item 
+{
   display: inline-block;
   padding: 12px 30px;
   color: #fff;
@@ -5988,18 +5989,18 @@ figure.snip0025.hover .curl {
 
 /* Nút thanh toán */
 .andro_btn-custom {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 160px;
   text-align: center;
-  background-color: #704d25; /* Màu nâu trà */
+  background-color: #5c3f1f; /* Màu nâu trà */
   color: #fff;
-  padding: 10px 15px;
-  border-radius: 5px;
+  padding: 12px 15px;
+  border-radius: 2px;
   text-decoration: none;
 }
 
 .andro_btn-custom:hover {
-  background-color: #5c3f1f; /* Màu đậm hơn */
+  background-color: #704d25; /* Màu đậm hơn */
 }
 .cart-summary{
   margin-top: 15px;
