@@ -507,6 +507,25 @@ $(document).ready(function () {
     });
 });
 
+//Thông báo thêm vào giỏ hàng thành công
+function themVaoGioHang() {
+    // Hiển thị thông báo
+    alert("Bạn đã thêm sản phẩm vào giỏ hàng thành công!");
+}
+
+//Thông báo đánh giá sản phẩm
+function danhGiaSP() {
+    // Hiển thị thông báo
+    alert("Cảm ơn bạn đã đánh giá sản phẩm!");
+}
+
+//Thông báo thêm vào Yêu thích
+function addToWishlist() {
+    // Hiển thị thông báo
+    alert("Bạn đã thêm sản phẩm vào danh mục Yêu thích!");
+}
+
+
 
 $(document).ready(function () {
 
@@ -604,6 +623,7 @@ $(document).ready(function () {
         // Thêm sản phẩm vào giỏ hàng
         $('#cart-body').append(newRow);
 
+        
         // Cập nhật tổng giỏ hàng
         updateCartTotal();
     });
@@ -639,7 +659,7 @@ $(document).ready(function () {
 const products = {
     1: {
         title: "Trung Nguyên Legend Roman - 200g",
-        image: "assets/img/products/8(1).jpg",
+        image: "assets/img/products/legend.jpg",
         price: "550.800 ₫",
         description: "Tuyệt phẩm cà phê Roman rất độc đáo và đầy tinh tế, thể chất đậm, tròn vị cùng mùi khói nhẹ, đặc trưng xen lẫn chút hương vị trái cây tươi tạo nên tách cà phê tuyệt hảo, đậm phong vị Espresso nguyên bản.",
         rating: 4,
@@ -647,7 +667,7 @@ const products = {
     },
     2: {
         title: "Trung Nguyên Legend Success 3",
-        image: "assets/img/products/5(1).jpg",
+        image: "assets/img/products/success3.jpg",
         price: "287.000 ₫",
         description: "Là loại cà phê siêu hạng có hương vị độc đáo và đầy thử thách. Mùi hương dịu nhẹ nhưng rất đa dạng; Thể chất mạnh nhưng cân bằng, hậu vị ngọt dịu.",
         rating: 5,
@@ -655,7 +675,7 @@ const products = {
     },
     3: {
         title: "Cà phê G7 Gold Picasso Latte",
-        image: "assets/img/products/4(1).jpg",
+        image: "assets/img/products/G7gold.jpg",
         price: "71.200 ₫",
         description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
         rating: 3,
@@ -666,7 +686,7 @@ const products = {
         image: "assets/img/products/legend2.jpg",
         price: "52.000 ₫",
         description: "Trung Nguyên Legend Americano- phiên bản cà phê đen hòa tan rang xay độc đáo với hương thơm dịu nhẹ, hậu vị ngọt nhẹ đầy quyến rũ đem đến cho bạn nguồn năng lượng mạnh mẽ cho tinh thần phóng khoáng và đầy cảm hứng để tiếp tục chinh phục những thành công mới.",
-        rating: 3,
+        rating: 5,
         link: "cart.html"
     },
     5: {
@@ -738,7 +758,7 @@ const products = {
         title: "Cà phê G7 3in1 - Bịch 50 sticks 16gr",
         image: "assets/img/products/tanG73in1_2.jpg",
         price: "160.500 ₫",
-        description: "MĐặc điểm:Cà phê G7 3in1 mang đến sự tiện lợi cho người sử dụng, bạn không mất nhiều thời gian nhưng vẫn có được ly cà phê với hương vị đậm đà, quyến rũ.",
+        description: "Đặc điểm:Cà phê G7 3in1 mang đến sự tiện lợi cho người sử dụng, bạn không mất nhiều thời gian nhưng vẫn có được ly cà phê với hương vị đậm đà, quyến rũ.",
         rating: 3,
         link: "cart.html"
     },
@@ -867,5 +887,6 @@ document.querySelectorAll('.xem-nhanh-btn').forEach(button => {
             // Hiển thị modal
             $('#quickViewModal').modal('show');
         }
+
     });
 });

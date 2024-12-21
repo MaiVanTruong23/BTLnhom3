@@ -35,6 +35,7 @@
         </div>
     </div>
     <!-- Prealoader End -->
+
     <!-- Aside (Right Panel) -->
     <aside class="andro_aside andro_aside-right">
         <div class="sidebar">
@@ -494,6 +495,55 @@
 
     </header>
     <!-- Header End -->
+     
+      <!-- Quickview Modal Start -->
+    <div class="modal fade andro_quick-view-modal" id="quickViewModal" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <div class="close-btn close-dark close" data-dismiss="modal">
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img id="product-image" src="" alt="product">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="andro_product-single-content">
+                                    <div class="andro_rating-wrapper">
+                                        <div id="product-rating" class="andro_rating"></div>
+                                        <span id="product-stars"></span>
+                                    </div>
+                                    <h3 id="product-title"></h3>
+                                    <div class="andro_product-price">
+                                        <span id="product-price"></span>
+                                    </div>
+                                    <p id="product-description"></p>
+                                    <form class="andro_product-atc-form">
+                                        <div class="qty-outter">
+                                            <a href="#" id="buy-now-link" class="andro_btn-custom">Mua ngay</a>
+                                            <div class="qty">
+                                                <span class="qty-subtract"><i class="fa fa-minus"></i></span>
+                                                <input type="text" name="qty" value="1">
+                                                <span class="qty-add"><i class="fa fa-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Quickview Modal End -->
+
 
     <!-- Banner Start -->
 
@@ -575,10 +625,7 @@
             </div>
         </div>
     </div>
-    <!-- Categories End -->
-
-
-
+    <!-- Categories End -->   
 
 
     <!-- New Arrival start -->
@@ -619,7 +666,8 @@
                     <div class="andro_product-footer">
 
                         <div class="andro_product-buttons">
-                            <a href="cart.html" class="andro_btn-custom primary">Thêm vào giỏ hàng</a>
+                            <!--javascript:void(0); để ngăn không cho chuyển trang-->
+                            <a href="javascript:void(0);" class="andro_btn-custom primary" onclick="themVaoGioHang()">Thêm vào giỏ hàng</a> 
                             <a class="andro_btn-custom light xem-nhanh-btn" data-id="4">Xem nhanh</a>
                         </div>
                     </div>
@@ -760,52 +808,7 @@
         </div>
     </div>
     <!-- New Arrival  end -->
-    <!-- Modal -->
-    <div class="modal fade andro_quick-view-modal" id="quickViewModal" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
 
-                    <div class="close-btn close-dark close" data-dismiss="modal">
-                        <span></span>
-                        <span></span>
-                    </div>
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-5">
-                                <img id="product-image" src="" alt="product">
-                            </div>
-                            <div class="col-md-7">
-                                <div class="andro_product-single-content">
-                                    <div class="andro_rating-wrapper">
-                                        <div id="product-rating" class="andro_rating"></div>
-                                        <span id="product-stars"></span>
-                                    </div>
-                                    <h3 id="product-title"></h3>
-                                    <div class="andro_product-price">
-                                        <span id="product-price"></span>
-                                    </div>
-                                    <p id="product-description"></p>
-                                    <form class="andro_product-atc-form">
-                                        <div class="qty-outter">
-                                            <a href="#" id="buy-now-link" class="andro_btn-custom">Buy Now</a>
-                                            <div class="qty">
-                                                <span class="qty-subtract"><i class="fa fa-minus"></i></span>
-                                                <input type="text" name="qty" value="1">
-                                                <span class="qty-add"><i class="fa fa-plus"></i></span>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Top Category picks start -->
     <div class="section pt-0">
         <div class="container">
