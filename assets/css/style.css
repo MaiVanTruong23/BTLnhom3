@@ -6011,6 +6011,51 @@ figure.snip0025.hover .curl {
   text-decoration: none;
 }
 */
+/* Sắp xếp bài viết theo hàng ngang */
+.team-section {
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: space-between; /* Căn đều khoảng cách giữa các bài viết */
+  align-items: flex-start; /* Căn các bài viết lên trên cùng */
+  gap: 20px; /* Tạo khoảng cách giữa các bài viết */
+  margin-top: 20px;
+}
+
+/* Định dạng từng bài viết */
+.team-member {
+  flex: 1; /* Chia đều không gian giữa các bài viết */
+  max-width: 250px; /* Giới hạn chiều rộng mỗi bài */
+  text-align: center;
+  color: white;
+  background-color: #ffff; /* Màu nền cho mỗi bài viết */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Hình ảnh bên trong mỗi bài viết */
+.team-member img {
+  width: 100%; /* Để ảnh co giãn theo kích thước khối */
+  max-width: 200px; /* Giới hạn chiều rộng ảnh */
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px; /* Bo góc ảnh */
+}
+
+/* Tiêu đề bài viết */
+.team-member h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #423c3c;
+}
+
+/* Nội dung mô tả */
+.team-member p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #291d1d;
+}
+
 
 .andro_btn-custom:hover {
   background-color: #704d25; /* Màu đậm hơn */
