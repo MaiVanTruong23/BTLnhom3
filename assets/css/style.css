@@ -5988,17 +5988,15 @@ figure.snip0025.hover .curl {
   font-weight: bold;
   margin-top: 15px;
 }
-
+.indented-steps p {
+  margin-left: 20px; /* Thụt lề 20px */
+}
 /* Nút thanh toán 
 .andro_btn-custom {
   display: inline-block;
   width: 160px;
   text-align: center;
-<<<<<<< HEAD
-  background-color: #5c3f1f; /* Màu nâu trà */
-=======
   background-color: #704d25;  Màu nâu trà 
->>>>>>> 80ba642c73c4c81d46d5d855f602e0e4f8514ecd
   color: #fff;
   padding: 12px 15px;
   border-radius: 2px;
