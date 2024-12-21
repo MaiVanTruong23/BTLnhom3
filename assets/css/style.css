@@ -902,6 +902,7 @@ textarea {
 }
 
 
+
 .andro_btn-custom:hover,
 .andro_btn-custom:focus {
   color: #fff;
@@ -922,6 +923,7 @@ textarea {
   background-color: #fff;
   color: #634832;
 }
+
 
 .andro_btn-custom.light:hover,
 .andro_btn-custom.light:focus {
@@ -3638,7 +3640,7 @@ table img {
 .andro_product-meta li>span {
   font-weight: 600;
   color: #18181D;
-  width: 120px;
+  width: 180px;
 }
 
 .andro_product-meta li .andro_product-meta-item span,
@@ -5583,7 +5585,7 @@ td.remove {
   .andro_product.andro_product-has-buttons .andro_product-footer .andro_product-buttons a+a {
     border-radius: 0 0 8px 8px;
   }
-
+ 
   .andro_header-cart-content,
   .andro_header-controls-inner li.andro_header-favorites,
   .andro_current-currency-text {
