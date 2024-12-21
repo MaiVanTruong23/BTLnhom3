@@ -902,6 +902,7 @@ textarea {
 }
 
 
+
 .andro_btn-custom:hover,
 .andro_btn-custom:focus {
   color: #fff;
@@ -922,6 +923,7 @@ textarea {
   background-color: #fff;
   color: #634832;
 }
+
 
 .andro_btn-custom.light:hover,
 .andro_btn-custom.light:focus {
@@ -1105,13 +1107,17 @@ textarea {
   width: 100%;
   height: 100%;
   background-image: url('../img/banner/deal3.png');
-  
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: -1;
-}
 
+}
+.breadcrumb {
+  border: 2px solid #6F4F1F;
+  padding: 5px;
+}
 /*=============================
 1.6 Modal, Popups & Dropdowns
 ==============================*/
@@ -3639,7 +3645,7 @@ table img {
 .andro_product-meta li>span {
   font-weight: 600;
   color: #18181D;
-  width: 120px;
+  width: 180px;
 }
 
 .andro_product-meta li .andro_product-meta-item span,
@@ -3679,6 +3685,7 @@ td.remove {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+
 }
 
 .andro_cart-product-wrapper h6 {
@@ -5584,7 +5591,7 @@ td.remove {
   .andro_product.andro_product-has-buttons .andro_product-footer .andro_product-buttons a+a {
     border-radius: 0 0 8px 8px;
   }
-
+ 
   .andro_header-cart-content,
   .andro_header-controls-inner li.andro_header-favorites,
   .andro_current-currency-text {
@@ -5988,6 +5995,7 @@ figure.snip0025.hover .curl {
   font-weight: bold;
   margin-top: 15px;
 }
+
 .indented-steps p {
   margin-left: 20px; /* Thụt lề 20px */
 }
@@ -6003,6 +6011,7 @@ figure.snip0025.hover .curl {
   text-decoration: none;
 }
 */
+
 .andro_btn-custom:hover {
   background-color: #704d25; /* Màu đậm hơn */
 }
@@ -6022,4 +6031,7 @@ figure.snip0025.hover .curl {
 
 .col-wide {
   width: 150px; /* Đặt độ rộng lớn hơn cho cột tổng tiền */
+}
+.product{
+  width:350px;
 }
