@@ -5996,6 +5996,21 @@ figure.snip0025.hover .curl {
   margin-top: 15px;
 }
 
+.indented-steps p {
+  margin-left: 20px; /* Thụt lề 20px */
+}
+/* Nút thanh toán 
+.andro_btn-custom {
+  display: inline-block;
+  width: 160px;
+  text-align: center;
+  background-color: #704d25;  Màu nâu trà 
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+*/
 
 .andro_btn-custom:hover {
   background-color: #704d25; /* Màu đậm hơn */
