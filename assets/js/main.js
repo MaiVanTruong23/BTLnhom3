@@ -763,51 +763,99 @@ const products = {
         link: "cart.html"
     },
     15: {
-        title: "Cà phê G7 Gold Picasso Latte",
-        image: "assets/img/products/4(1).jpg",
-        price: "71.200 ₫",
-        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
-        rating: 3,
+        title: "Trung Nguyên Legend Classic hộp 12 stick",
+        image: "assets/img/products/tanClassic.jpg",
+        price: "45.000 ₫",
+        description: "Dựa trên nền tảng hương vị của Cà phê G7, cà phê Legend Classic sử dụng công nghệ Nano làm cho hương vị cà phê thêm tươi mới.",
+        rating: 5,
         link: "cart.html"
     },
     16: {
-        title: "Cà phê G7 Gold Picasso Latte",
-        image: "assets/img/products/4(1).jpg",
-        price: "71.200 ₫",
-        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
-        rating: 3,
+        title: "Ly Libbey Pinnacle Beverage 2532",
+        image: "assets/img/products/ly1.jpg",
+        price: "20.000 ₫",
+        description: "Sản phẩm Ly Libbey Pinnacle Beverage 2532 được thiết kế độc đáo và tinh tế, thích hợp cho đồ uống lạnh, nước trái cây…",
+        rating: 5,
         link: "cart.html"
     },
     17: {
-        title: "Cà phê G7 Gold Picasso Latte",
-        image: "assets/img/products/4(1).jpg",
-        price: "71.200 ₫",
-        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
-        rating: 3,
+        title: "Luminarc Highball 28 - J4508 màu Hồng",
+        image: "assets/img/products/ly2.jpg",
+        price: "25.000 ₫",
+        description: "Ly thủy tinh Luminarc Highball 28 - J4508 màu Hồng chuyên dụng pha cà phê, thích hợp sử dụng trong gia đình, quầy bar, quán cà phê hoặc nhà hàng.",
+        rating: 5,
         link: "cart.html"
     },
     18: {
-        title: "Cà phê G7 Gold Picasso Latte",
-        image: "assets/img/products/4(1).jpg",
-        price: "71.200 ₫",
-        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        title: "Luminarc Highball 28 - J4506 màu xanh",
+        image: "assets/img/products/ly3.jpg",
+        price: "25.000 ₫",
+        description: "Luminarc Highball 28 - J4506 màu xanh chuyên dụng pha cà phê, thích hợp sử dụng trong gia đình, quầy bar, quán cà phê hoặc nhà hàng.",
         rating: 3,
         link: "cart.html"
     },
     19: {
-        title: "Cà phê G7 Gold Picasso Latte",
-        image: "assets/img/products/4(1).jpg",
-        price: "71.200 ₫",
-        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
-        rating: 3,
+        title: "Luminarc màu hồng J5388",
+        image: "assets/img/products/ly4.jpg",
+        price: "20.000 ₫",
+        description: "Luminarc màu hồng J5387 thích hợp đựng nước ép, sinh tố. Dùng trong nhà hà,bar, quán cà phê.",
+        rating: 5,
         link: "cart.html"
     },
     20: {
-        title: "Cà phê G7 Gold Picasso Latte",
-        image: "assets/img/products/4(1).jpg",
-        price: "71.200 ₫",
-        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
-        rating: 3,
+        title: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng",
+        image: "assets/img/products/ly5.jpg",
+        price: "70.000 ₫",
+        description: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng gồm một tách và một đĩa lót, được thiết kế thích hợp với việc dùng uống cà phê espresso.",
+        rating: 5,
+        link: "cart.html"
+    },
+    21: {
+        title: "Hộp quà Tết Cafe G7 Gold 2025",
+        image: "assets/img/products/gift_G7.jpg",
+        price: "319.000 ₫",
+        description: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng gồm một tách và một đĩa lót, được thiết kế thích hợp với việc dùng uống cà phê espresso.",
+        rating: 5,
+        link: "cart.html"
+    },
+    22: {
+        title: "Bộ pha cafe gỗ V60 1 phễu YOLO TW",
+        image: "assets/img/products/machine1.jpg",
+        price: "70.000 ₫",
+        description: "Bộ dụng cụ pha cà phê thủ công một phểu chiết xuất bằng giấy lọc V60. Sản phẩm chế tác thủ công độc đáo với khung giá đỡ được lắp ghép bằng khớp nối nhôm hợp kim và đế gỗ thông tự nhiên.",
+        rating: 5,
+        link: "cart.html"
+    },
+    23: {
+        title: "Cà phê Phin giấy Americano",
+        image: "assets/img/products/phingiay.jpg",
+        price: "133.000 ₫",
+        description: "Tuyệt phẩm Cà Phê Phin giấy Trung Nguyên Legend Americano với hương thơm dịu, vị mạnh mẽ của loại cà phê mang âm hưởng và khí chất của những chàng Cowboy vừa thanh thoát vừa lãng mạn làm say lòng biết bao người thưởng thức.",
+        rating: 4,
+        link: "cart.html"
+    },
+    24: {
+        title: "Máy pha cà phê tự động P-EMIC PT102",
+        image: "assets/img/products/machine2.jpg",
+        price: "70.000 ₫",
+        description: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng gồm một tách và một đĩa lót, được thiết kế thích hợp với việc dùng uống cà phê espresso.",
+        rating: 5,
+        link: "cart.html"
+    },
+    25: {
+        title: "Davinci - Bột nền pha chế Frappease 1.5kg",
+        image: "assets/img/products/phache.jpg",
+        price: "335.000 ₫",
+        description: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng gồm một tách và một đĩa lót, được thiết kế thích hợp với việc dùng uống cà phê espresso.",
+        rating: 5,
+        link: "cart.html"
+    },
+    26: {
+        title: "Cà phê Drip - Arabica Robusta hạt số 2 - 250gr",
+        image: "assets/img/products/hat.jpg",
+        price: "70.000 ₫",
+        description: "Đặc điểm: Cà phê hạt xay Drip - Arabica Robusta khi pha có màu đen nhạt. Mùi thơm nhẹ, vị êm và hơi đắng",
+        rating: 5,
         link: "cart.html"
     },
 };
