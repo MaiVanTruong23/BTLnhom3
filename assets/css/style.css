@@ -890,7 +890,6 @@ textarea {
   color: #fff;
   font-size: 14px;
   font-weight: 600;
-  padding: 12px 30px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -898,7 +897,10 @@ textarea {
   border-radius: 0;
   z-index: 1;
   box-shadow: 0 3px 24px rgba(0, 0, 0, .1);
+  width: auto; /* Cho phép tự động điều chỉnh độ rộng   */
+  padding: 10px 20px; /* Điều chỉnh khoảng cách bên trong padding: 12px 30px; */
 }
+
 
 .andro_btn-custom:hover,
 .andro_btn-custom:focus {
@@ -5986,18 +5988,18 @@ figure.snip0025.hover .curl {
   margin-top: 15px;
 }
 
-/* Nút thanh toán */
+/* Nút thanh toán 
 .andro_btn-custom {
   display: block;
   width: 100%;
   text-align: center;
-  background-color: #704d25; /* Màu nâu trà */
+  background-color: #704d25;  Màu nâu trà 
   color: #fff;
   padding: 10px 15px;
   border-radius: 5px;
   text-decoration: none;
 }
-
+*/
 .andro_btn-custom:hover {
   background-color: #5c3f1f; /* Màu đậm hơn */
 }
