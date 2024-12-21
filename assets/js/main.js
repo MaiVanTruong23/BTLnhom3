@@ -1,6 +1,6 @@
 (function ($) {
     'use strict';
-   
+
     /*-------------------------------------------------------------------------------
     Cookies
     -------------------------------------------------------------------------------*/
@@ -485,7 +485,7 @@
         }, 600);
         return false;
     })
-    
+
 
     //On scroll events
     $(window).on('scroll', function () {
@@ -633,5 +633,191 @@ $(document).ready(function () {
 
         // Cập nhật tổng giỏ hàng
         updateCartTotal();
+    });
+});
+// Danh sách sản phẩm
+const products = {
+    1: {
+        title: "Trung Nguyên Legend Roman - 200g",
+        image: "assets/img/products/8(1).jpg",
+        price: "550.800 ₫",
+        description: "Tuyệt phẩm cà phê Roman rất độc đáo và đầy tinh tế, thể chất đậm, tròn vị cùng mùi khói nhẹ, đặc trưng xen lẫn chút hương vị trái cây tươi tạo nên tách cà phê tuyệt hảo, đậm phong vị Espresso nguyên bản.",
+        rating: 4,
+        link: "cart.html"
+    },
+    2: {
+        title: "Trung Nguyên Legend Success 3",
+        image: "assets/img/products/5(1).jpg",
+        price: "287.000 ₫",
+        description: "Là loại cà phê siêu hạng có hương vị độc đáo và đầy thử thách. Mùi hương dịu nhẹ nhưng rất đa dạng; Thể chất mạnh nhưng cân bằng, hậu vị ngọt dịu.",
+        rating: 5,
+        link: "cart.html"
+    },
+    3: {
+        title: "Cà phê G7 Gold Picasso Latte",
+        image: "assets/img/products/4(1).jpg",
+        price: "71.200 ₫",
+        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        rating: 3,
+        link: "cart.html"
+    },
+    4: {
+        title: "Trung Nguyên Legend Americano hộp 15 gói x 2g",
+        image: "assets/img/products/legend2.jpg",
+        price: "52.000 ₫",
+        description: "Trung Nguyên Legend Americano- phiên bản cà phê đen hòa tan rang xay độc đáo với hương thơm dịu nhẹ, hậu vị ngọt nhẹ đầy quyến rũ đem đến cho bạn nguồn năng lượng mạnh mẽ cho tinh thần phóng khoáng và đầy cảm hứng để tiếp tục chinh phục những thành công mới.",
+        rating: 3,
+        link: "cart.html"
+    },
+    5: {
+        title: "Trung Nguyên Legend Cappuccino Hazelnut",
+        image: "assets/img/products/legend.jpg",
+        price: "75.000 ₫",
+        description: "Đặc điểm:Cà phê hòa tan Cappuccino hương vị hạt dẻ ấm nồng, Lần đầu tiên tại Việt Nam, duy nhất chỉ có ở Trung Nguyên.",
+        rating: 5,
+        link: "cart.html"
+    },
+
+    6: {
+        title: "Cà phê House Blend - 500gr",
+        image: "assets/img/products/rang1.jpg",
+        price: "108.000 ₫",
+        description: "Đặc điểm: Mùi thơm đặc trưng, vị đậm đà. Hương thơm nồng nàn khó quên. Thích hợp với việc sử dụng trong gia đình hoặc làm quà tặng cho người thân, bạn bè.",
+        rating: 5,
+        link: "cart.html"
+    },
+    7: {
+        title: "Cà phê I (Khát vọng) - 500gr",
+        image: "assets/img/products/rang2.jpg",
+        price: "96.000 ₫",
+        description: "Đặc điểm: Cà phê Trung Nguyên I với màu nước nâu đậm. Hương thơm nồng. Vị đậm đà đặc trưng. Thích hợp cho những người có gu uống cà phê đậm.",
+        rating: 5,
+        link: "cart.html"
+    },
+    8: {
+        title: "Cà phê Sáng tạo Arabica 1 - 340gr",
+        image: "assets/img/products/rang3.jpg",
+        price: "78.000 ₫",
+        description: "Đặc tính: Nước pha màu nâu cánh gián đậm. Mùi thơm dịu nhẹ. Vị đậm đà. Rất ngon khi với đá lạnh hoặc cà phê đen.",
+        rating: 5,
+        link: "cart.html"
+    },
+    9: {
+        title: "Cà phê Sức sống ( Nâu) - 500gr",
+        image: "assets/img/products/rang4.jpg",
+        price: "133.500 ₫",
+        description: "Đặc điểm: Mùi hương thơm nồng quyến rũ. Vị đậm đà đặc trưng. Công nghệ chế biến cà phê hàng đầu thế giới và bí quyết không thể sao chép.",
+        rating: 5,
+        link: "cart.html"
+    },
+    10: {
+        title: "Cà phê Sáng tạo Arabica 5 - 340gr",
+        image: "assets/img/products/rang5.jpg",
+        price: "150.000 ₫",
+        description: "Đặc tính: Nước pha màu nâu cánh gián đậm. Mùi thơm đặc trưng. Vị êm nhẹ và ít đắng, mùi thơm. Ngon hơn khi dùng chung với sữa.",
+        rating: 3,
+        link: "cart.html"
+    },
+    12: {
+        title: "Cà phê G7 3in1 - Hộp 18 sticks 16gr",
+        image: "assets/img/products/tanG73in1jpg",
+        price: "60.000 ₫",
+        description: "Đặc điểm:Cà phê G7 3in1 mang đến sự tiện lợi cho người sử dụng: bạn không mất nhiều thời gian nhưng vẫn có được ly cà phê với hương vị đậm đà, quyến rũ.",
+        rating: 5,
+        link: "cart.html"
+    },
+    13: {
+        title: "Trung Nguyên Legend Cappuccino Coconut",
+        image: "assets/img/products/tanLegendcoconut.jpg",
+        price: "75.000 ₫",
+        description: "Đặc điểm:Cà phê hòa tan Cappuccino hương vị dừa, Lần đầu tiên tại Việt Nam, duy nhất chỉ có ở Trung Nguyên.",
+        rating: 4,
+        link: "cart.html"
+    },
+    14: {
+        title: "Cà phê G7 3in1 - Bịch 50 sticks 16gr",
+        image: "assets/img/products/tanG73in1_2.jpg",
+        price: "160.500 ₫",
+        description: "MĐặc điểm:Cà phê G7 3in1 mang đến sự tiện lợi cho người sử dụng, bạn không mất nhiều thời gian nhưng vẫn có được ly cà phê với hương vị đậm đà, quyến rũ.",
+        rating: 3,
+        link: "cart.html"
+    },
+    15: {
+        title: "Cà phê G7 Gold Picasso Latte",
+        image: "assets/img/products/4(1).jpg",
+        price: "71.200 ₫",
+        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        rating: 3,
+        link: "cart.html"
+    },
+    16: {
+        title: "Cà phê G7 Gold Picasso Latte",
+        image: "assets/img/products/4(1).jpg",
+        price: "71.200 ₫",
+        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        rating: 3,
+        link: "cart.html"
+    },
+    17: {
+        title: "Cà phê G7 Gold Picasso Latte",
+        image: "assets/img/products/4(1).jpg",
+        price: "71.200 ₫",
+        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        rating: 3,
+        link: "cart.html"
+    },
+    18: {
+        title: "Cà phê G7 Gold Picasso Latte",
+        image: "assets/img/products/4(1).jpg",
+        price: "71.200 ₫",
+        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        rating: 3,
+        link: "cart.html"
+    },
+    19: {
+        title: "Cà phê G7 Gold Picasso Latte",
+        image: "assets/img/products/4(1).jpg",
+        price: "71.200 ₫",
+        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        rating: 3,
+        link: "cart.html"
+    },
+    20: {
+        title: "Cà phê G7 Gold Picasso Latte",
+        image: "assets/img/products/4(1).jpg",
+        price: "71.200 ₫",
+        description: "Mang phong vị của Ly cà phê Picasso Latte tại không gian Thế giới Cà phê Trung Nguyên Legend với vị béo, chút đắng nhẹ hòa lẫn hương vanilla ngọt dịu và lớp foam dày, mịn.",
+        rating: 3,
+        link: "cart.html"
+    },
+};
+
+// Khi nhấn vào nút "Xem nhanh"
+document.querySelectorAll('.xem-nhanh-btn').forEach(button => {
+    button.addEventListener('click', function () {
+        const productId = this.getAttribute('data-id');
+        const product = products[productId];
+
+        if (product) {
+            // Cập nhật nội dung modal
+            document.getElementById('product-image').src = product.image;
+            document.getElementById('product-title').textContent = product.title;
+            document.getElementById('product-price').textContent = product.price;
+            document.getElementById('product-description').textContent = product.description;
+            document.getElementById('product-stars').textContent = `${product.rating} Stars`;
+            document.getElementById('buy-now-link').href = product.link;
+
+            // Tạo rating
+            const ratingContainer = document.getElementById('product-rating');
+            ratingContainer.innerHTML = ''; // Xóa các ngôi sao cũ
+            for (let i = 1; i <= 5; i++) {
+                const star = document.createElement('i');
+                star.className = `fa fa-star ${i <= product.rating ? 'active' : ''}`;
+                ratingContainer.appendChild(star);
+            }
+
+            // Hiển thị modal
+            $('#quickViewModal').modal('show');
+        }
     });
 });
