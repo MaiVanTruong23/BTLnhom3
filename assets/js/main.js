@@ -838,7 +838,7 @@ const products = {
         title: "Máy pha cà phê tự động P-EMIC PT102",
         image: "assets/img/products/machine2.jpg",
         price: "70.000 ₫",
-        description: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng gồm một tách và một đĩa lót, được thiết kế thích hợp với việc dùng uống cà phê espresso.",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
         rating: 5,
         link: "cart.html"
     },
@@ -858,6 +858,127 @@ const products = {
         rating: 5,
         link: "cart.html"
     },
+    27: {
+        title: "Trung Nguyên Legend Classic - Bịch 50 sachets",
+        image: "assets/img/products/tanClassic2.jpg",
+        price: "104.000 đ",
+        description: "Đặc điểm: Cà phê hạt xay Drip - Arabica Robusta khi pha có màu đen nhạt. Mùi thơm nhẹ, vị êm và hơi đắng",
+        rating: 5,
+        link: "cart.html"
+    },
+    28: {
+        title: "Trung Nguyên Legend Special Edition hộp 18 sticks",
+        image: "assets/img/products/tanSpecial.jpg",
+        price: "96.000 ₫",
+        description: "Đặc điểm: Cà phê hạt xay Drip - Arabica Robusta khi pha có màu đen nhạt. Mùi thơm nhẹ, vị êm và hơi đắng",
+        rating: 5,
+        link: "cart.html"
+    },
+    29: {
+        title: "Cà phê Hòa tan G7 3in1 - Bịch 1 kg",
+        image: "assets/img/products/g7.jpg",
+        price: "78.000 ₫",
+        description: "Đặc điểm: Cà phê hạt xay Drip - Arabica Robusta khi pha có màu đen nhạt. Mùi thơm nhẹ, vị êm và hơi đắng",
+        rating: 5,
+        link: "cart.html"
+    },
+    30: {
+        title: "Cà phê Hòa tan G7 2in1 - Hộp 15 gói 16gr",
+        image: "assets/img/products/g7_2.jpg",
+        price: "52.000 ₫",
+        description: "Đặc điểm: Cà phê hạt xay Drip - Arabica Robusta khi pha có màu đen nhạt. Mùi thơm nhẹ, vị êm và hơi đắng",
+        rating: 5,
+        link: "cart.html"
+    },
+    31: {
+        title: "Cà phê Gu mạnh 3 in 1 hộp 12 gói 25gr",
+        image: "assets/img/products/g7_3.jpg",
+        price: "87.000 ₫",
+        description: "Đặc điểm: Cà phê hạt xay Drip - Arabica Robusta khi pha có màu đen nhạt. Mùi thơm nhẹ, vị êm và hơi đắng",
+        rating: 5,
+        link: "cart.html"
+    },
+    32: {
+        title: "Cà phê G7 hòa tan đen - Hộp 15 gói 2gr",
+        image: "assets/img/products/g7_4.jpg",
+        price: "60.000 ₫",
+        description: "Đặc điểm: Cà phê hạt xay Drip - Arabica Robusta khi pha có màu đen nhạt. Mùi thơm nhẹ, vị êm và hơi đắng",
+        rating: 5,
+        link: "cart.html"
+    },
+    33: {
+        title: "Máy pha cafe Lelit Anita PL042EMI",
+        image: "assets/img/products/machineMy.jpg",
+        price: "18.500.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    34: {
+        title: "Máy pha café tự động Donggu DSK XL700",
+        image: "assets/img/products/machineVending.jpg",
+        price: "68.000.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    35: {
+        title: "Máy pha CF viên nén LegendEra I - TC01 - đen",
+        image: "assets/img/products/machineVien.jpg",
+        price: "60.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    36: {
+        title: "Máy pha café Gaggia Magenta Plus",
+        image: "assets/img/products/machineE1.jpg",
+        price: "20.500.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    37: {
+        title: "Máy pha cà phê Lamvita Combi 2",
+        image: "assets/img/products/machineE2.jpg",
+        price: "22.680.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    38: {
+        title: "Máy pha cafe Lamvita LSD 1G",
+        image: "assets/img/products/machineE3.jpg",
+        price: "38.880.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    39: {
+        title: "Máy pha cà phê Lamvita SteamX",
+        image: "assets/img/products/machineE4.jpg",
+        price: "29.000.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    40: {
+        title: "Máy pha cafe tự động Melitta Avanza Titan",
+        image: "assets/img/products/machineE5.jpg",
+        price: "21.680.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+    41: {
+        title: "Máy pha cafe tự động Melitta TouchPlus CI",
+        image: "assets/img/products/machineE6.jpg",
+        price: "34.120.000 ₫",
+        description: "Máy pha cà phê nhỏ gọn và tiện dụng giúp pha chế cà phê tại nhà hoặc văn phòng",
+        rating: 5,
+        link: "cart.html"
+    },
+
 };
 
 // Khi nhấn vào nút "Xem nhanh"
