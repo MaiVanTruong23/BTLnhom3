@@ -1082,6 +1082,62 @@ const products = {
         rating: 5,
         link: "cart.html"
     },
+    55: {
+        title: "Bộ ly sứ G7 Gold",
+        image: "assets/img/products/lycoc1.jpg",
+        price: "206.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    56: {
+        title: "Ly sứ Trung Nguyên Legend trụ lớn",
+        image: "assets/img/products/lycoc2.jpg",
+        price: "109.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    57: {
+        title: "Bộ ly CFSD (ly cao, muỗng)",
+        image: "assets/img/products/lycoc3.jpg",
+        price: "129.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    58: {
+        title: "Phin nhôm hoa văn Trung Nguyên vàng",
+        image: "assets/img/products/lycoc4.jpg",
+        price: "99.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    59: {
+        title: "Phin nhôm cao cấp hoa văn màu đen có hộp giấy",
+        image: "assets/img/products/lycoc5.jpg",
+        price: "99.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    60: {
+        title: "Phin nhôm hoa văn Trung Nguyên nâu",
+        image: "assets/img/products/lycoc6.jpg",
+        price: "99.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    61: {
+        title: "Ly Latte MNV màu xanh",
+        image: "assets/img/products/lycoc7.jpg",
+        price: "42.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
 
 
 };
