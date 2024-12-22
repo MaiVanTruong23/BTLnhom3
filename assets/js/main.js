@@ -814,7 +814,7 @@ const products = {
         title: "Hộp quà Tết Cafe G7 Gold 2025",
         image: "assets/img/products/gift_G7.jpg",
         price: "319.000 ₫",
-        description: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng gồm một tách và một đĩa lót, được thiết kế thích hợp với việc dùng uống cà phê espresso.",
+        description: "Món quà cho mọi nhà",
         rating: 5,
         link: "cart.html"
     },
@@ -978,6 +978,111 @@ const products = {
         rating: 5,
         link: "cart.html"
     },
+    42: {
+        title: "Hộp quà Giàu có",
+        image: "assets/img/products/gift.jpg",
+        price: "496.000 ₫",
+        description: "Món quà cho mọi nhà",
+        rating: 5,
+        link: "cart.html"
+    },
+    43: {
+        title: "Hộp quà LEGEND",
+        image: "assets/img/products/gift2.jpg",
+        price: "584.000 ₫",
+        description: "Món quà cho mọi nhà",
+        rating: 5,
+        link: "cart.html"
+    },
+    44: {
+        title: "Bộ sản phẩm văn minh cà phê Roman",
+        image: "assets/img/products/gift5.jpg",
+        price: "4.199.000 ₫",
+        description: "Món quà cho mọi nhà",
+        rating: 5,
+        link: "cart.html"
+    },
+    45: {
+        title: "Bộ sản phẩm The Spirit Of Philosophy",
+        image: "assets/img/products/gift4.jpg",
+        price: "999.000 ₫",
+        description: "Món quà cho mọi nhà",
+        rating: 5,
+        link: "cart.html"
+    },
+    46: {
+        title: "Giấy lọc cà phê hình tròn S660",
+        image: "assets/img/products/congcu1.jpg",
+        price: "30.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    47: {
+        title: "Giấy lọc V60 01 không tẩy trắng CK9308",
+        image: "assets/img/products/congcu2.jpg",
+        price: "110.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    48: {
+        title: "Bột vệ sinh máy pha cà phê Cafiza 2 900ml",
+        image: "assets/img/products/congcu3.jpg",
+        price: "250.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    49: {
+        title: "Cối xay cà phê lõi thép Cafede Kona - nhạt",
+        image: "assets/img/products/congcu4.jpg",
+        price: "700.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    50: {
+        title: "Cối xay cà phê lõi thép Cafede Kona - đậm",
+        image: "assets/img/products/congcu5.jpg",
+        price: "700.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    51: {
+        title: "Cối xay cà phê thân gỗ lưỡi thép - nhạt",
+        image: "assets/img/products/congcu6.jpg",
+        price: "700.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    52: {
+        title: "Bình thuỷ tinh Café nắp gỗ 360ml CK5400",
+        image: "assets/img/products/congcu7.jpg",
+        price: "320.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    53: {
+        title: "Ấm rót nước nóng inox đen Cafede CK9115",
+        image: "assets/img/products/congcu8.jpg",
+        price: "719.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+    54: {
+        title: "Ca đánh sữa Inox 304 bạc 600ml VCN6013",
+        image: "assets/img/products/congcu9.jpg",
+        price: "218.000 ₫",
+        description: "Công cụ và dụng cụ cà phê được sử dụng để các công đoạn chế biến và pha chế cà phê",
+        rating: 5,
+        link: "cart.html"
+    },
+
 
 };
 
