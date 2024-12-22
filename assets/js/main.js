@@ -814,7 +814,7 @@ const products = {
         title: "Hộp quà Tết Cafe G7 Gold 2025",
         image: "assets/img/products/gift_G7.jpg",
         price: "319.000 ₫",
-        description: "Bộ Tách + Dĩa Espresso gốm Bát Tràng men đồng gồm một tách và một đĩa lót, được thiết kế thích hợp với việc dùng uống cà phê espresso.",
+        description: "Món quà cho mọi nhà",
         rating: 5,
         link: "cart.html"
     },
@@ -978,6 +978,23 @@ const products = {
         rating: 5,
         link: "cart.html"
     },
+    42: {
+        title: "Hộp quà Giàu có",
+        image: "assets/img/products/gift.jpg",
+        price: "496.000 ₫",
+        description: "Món quà cho mọi nhà",
+        rating: 5,
+        link: "cart.html"
+    },
+    43: {
+        title: "Hộp quà LEGEND",
+        image: "assets/img/products/gift2.jpg",
+        price: "584.000 ₫",
+        description: "Món quà cho mọi nhà",
+        rating: 5,
+        link: "cart.html"
+    },
+
 
 };
 
