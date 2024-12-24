@@ -2484,7 +2484,7 @@ table img {
   transition: .3s;
 }
 
-/* Dark Footer */
+/* --------------Dark Footer--------------------------- */
 .andro_footer.andro_footer-dark {
   background-color: #18181D;
 }
@@ -2507,9 +2507,7 @@ table img {
   border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
-/*======================
-5. Subheader
-========================*/
+/*-------------------Subheader-----------------------*/
 .andro_subheader {
   background-size: cover;
   background-position: center;
@@ -2530,53 +2528,9 @@ table img {
   color: #38220F;
   font-style: italic;
 }
-/*
-.andro_subheader .breadcrumb {
-  padding: 0;
-  margin: 0;
-  background-color: transparent;
-}
 
-.andro_subheader .breadcrumb li {
-  margin: 0;
-  color: #f1f1f1;
-}
 
-.andro_subheader .breadcrumb li a {
-  color: #f1f1f1;
-  font-weight: 700;
-}
-
-.andro_subheader .breadcrumb li a:hover {
-  color: #fff;
-}
-
-.andro_subheader .breadcrumb .breadcrumb-item.active {
-  color: #fff;
-}
-
-.andro_subheader .breadcrumb-item+.breadcrumb-item::before {
-  color: #f1f1f1;
-  font-family: "Font Awesome 5 Free";
-  content: "\f054";
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900;
-  text-rendering: auto;
-  line-height: 1.7;
-  margin-left: auto;
-  font-size: 10px;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
-}
-*/
-/*======================
-6. Components
-========================*/
-
-/* 6.1. Blog Posts */
+/* Trang Blog */
 .andro_post {
   position: relative;
   margin-bottom: 30px;
@@ -2676,7 +2630,7 @@ table img {
   margin-bottom: 20px;
 }
 
-/* 6.1.1. Blog Posts list */
+/* Blog list */
 .andro_post.andro_post-list {
   display: flex;
   align-items: center;
@@ -2704,7 +2658,7 @@ table img {
   border-radius: 0;
 }
 
-/* 6.1.2. Blog Post Details */
+/* Chi tiết Blog */
 .comment-form {
   margin-bottom: 50px;
 }
@@ -4479,6 +4433,10 @@ td.remove {
   max-width: 500px;
   margin: 0 auto 20px;
   ;
+}
+.andro_404-container h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 /* 6.10. Testimonials */
