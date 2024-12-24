@@ -255,6 +255,24 @@
         }
         ]
     });
+    /*-------------------Slider-----------------------*/
+
+        const slides = document.querySelectorAll('.slide');
+        let currentIndex = 0;
+
+        function showNextSlide() {
+        // Ẩn slide hiện tại
+        slides[currentIndex].classList.remove('active');
+
+        // Cập nhật chỉ số slide tiếp theo
+        currentIndex = (currentIndex + 1) % slides.length;
+
+        // Hiển thị slide tiếp theo
+        slides[currentIndex].classList.add('active');
+        }
+
+        // Tự động chuyển slide sau mỗi 4 giây
+        setInterval(showNextSlide, 4000);
 
     /*-------------------------------------------------------------------------------
     Other mentions slider
@@ -288,40 +306,7 @@
         ]
     });
 
-    /*-------------------------------------------------------------------------------
-    Banner slider (Home v1)
-    -------------------------------------------------------------------------------*/
-    $(".banner-1 .andro_banner-slider").slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: true,
-        autoplay: true
-    });
-
-    /*-------------------------------------------------------------------------------
-    Banner slider (Home v2)
-    -------------------------------------------------------------------------------*/
-    $(".banner-2 .andro_banner-slider").slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        dots: false,
-        autoplay: true,
-    });
-
-    /*-------------------------------------------------------------------------------
-    Banner slider (Home v3)
-    -------------------------------------------------------------------------------*/
-    $(".banner-3 .andro_banner-slider").slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        dots: false,
-        autoplay: true,
-        prevArrow: $('.banner-3 .slider-prev'),
-        nextArrow: $('.banner-3 .slider-next'),
-    });
+   
 
     /*-------------------------------------------------------------------------------
     New Arrivals
@@ -1197,7 +1182,7 @@ const products = {
     69: {
         title: "Pomona - Syrup Trà xanh 1L",
         image: "assets/img/products/phache9.jpg",
-        price: "459.000 ₫",
+        price: "259.000 ₫",
         description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
         rating: 5,
         link: "cart.html"
