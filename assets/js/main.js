@@ -1138,6 +1138,81 @@ const products = {
         rating: 5,
         link: "cart.html"
     },
+    62: {
+        title: "Ly Libbey Picadilly Rocks",
+        image: "assets/img/products/ly7.jpg",
+        price: "16.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    63: {
+        title: "Bộ ly Ocean",
+        image: "assets/img/products/ly6.jpg",
+        price: "40.000 ₫",
+        description: "Ly Cốc Tách Phin với nhiều mẫu mã đa dạng, màu sắc sang trọng bắt mắt, là công cụ pha chế cà phê tuyệt vời",
+        rating: 5,
+        link: "cart.html"
+    },
+    64: {
+        title: "Pomona - Bột Cocolate bạc hà 800g",
+        image: "assets/img/products/phache2.jpg",
+        price: "299.000 ₫",
+        description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
+        rating: 5,
+        link: "cart.html"
+    },
+    65: {
+        title: "Syrup Freshy Chanh",
+        image: "assets/img/products/phache5.jpg",
+        price: "75.000 ₫",
+        description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
+        rating: 5,
+        link: "cart.html"
+    },
+    66: {
+        title: "Pomona - Syrup Táo đỏ 1L",
+        image: "assets/img/products/phache8.jpg",
+        price: "259.000 ₫",
+        description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
+        rating: 5,
+        link: "cart.html"
+    },
+    67: {
+        title: "Syrup Freshy Xoài",
+        image: "assets/img/products/phache7.jpg",
+        price: "299.000 ₫",
+        description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
+        rating: 5,
+        link: "cart.html"
+    },
+    68: {
+        title: "Syrup Freshy Chanh Vàng",
+        image: "assets/img/products/phache6.jpg",
+        price: "75.000 ₫",
+        description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
+        rating: 5,
+        link: "cart.html"
+    },
+    69: {
+        title: "Pomona - Syrup Trà xanh 1L",
+        image: "assets/img/products/phache9.jpg",
+        price: "459.000 ₫",
+        description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
+        rating: 5,
+        link: "cart.html"
+    },
+    70: {
+        title: "Pomona - Syrup Trà đen 1L",
+        image: "assets/img/products/phache10.jpg",
+        price: "459.000 ₫",
+        description: "mang lại hương vị, mùi thơm và chất lượng tối ưu cho ly cà phê.",
+        rating: 5,
+        link: "cart.html"
+    },
+
+
+
 
 
 };
