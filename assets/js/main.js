@@ -255,6 +255,24 @@
         }
         ]
     });
+    /*-------------------Slider-----------------------*/
+
+        const slides = document.querySelectorAll('.slide');
+        let currentIndex = 0;
+
+        function showNextSlide() {
+        // Ẩn slide hiện tại
+        slides[currentIndex].classList.remove('active');
+
+        // Cập nhật chỉ số slide tiếp theo
+        currentIndex = (currentIndex + 1) % slides.length;
+
+        // Hiển thị slide tiếp theo
+        slides[currentIndex].classList.add('active');
+        }
+
+        // Tự động chuyển slide sau mỗi 4 giây
+        setInterval(showNextSlide, 4000);
 
     /*-------------------------------------------------------------------------------
     Other mentions slider
